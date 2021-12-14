@@ -34,7 +34,7 @@ class DatabaseSeeder extends Seeder
         User::create([
             'id_user'  => '2932893289384232',
             'name_user'  => 'Sedo Male',
-            'email'  => 'mane212.com',
+            'email'  => 'mane212@gmail.com',
             'status_akses'  => 'Kasir',
             'no_telepon' => '087721432134',
             'jenis_kelamin' => 'Laki-laki',
