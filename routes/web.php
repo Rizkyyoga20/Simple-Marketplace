@@ -52,8 +52,3 @@ Route::post('/produk/simpan', [ClassProduk::class, 'SimpanProduk'])->middleware(
 Route::get('/produk/tampil/{id}', [ClassProduk::class, 'TampilProduk'])->middleware('auth');
 Route::put('/produk/edit/{id}', [ClassProduk::class, 'EditProduk'])->middleware('auth');
 Route::delete('/produk/hapus/{id}', [ClassProduk::class, 'HapusProduk'])->middleware('auth');
-
-
- Route::get('/create-symbolic'), function () {
-             symlink(storage_path('/app/public'), public_path('storage'));
-             echo "symlink Created, Thabks";
