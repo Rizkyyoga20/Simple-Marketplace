@@ -4,7 +4,7 @@
 
 <center>
 <div class="col-sm-6 mb-1 p-2">
-    <img src="{{ asset('storage/app/public/web/icon-login.png')}}" width="150px" height="150px" style="margin-bottom:5px;">
+    <img src="{{ url('https://github.com/Rizkyyoga20/Simple-Marketplace/blob/master/storage/app/public/web/icon-login.png')}}" width="150px" height="150px" style="margin-bottom:5px;">
 	<h3 style="margin-bottom:10px; font-family:Monotype Corsiva; font-weight:bold; color:blue; font-size:30px;">Login</h3>
 	@if(session()->has('loginError'))
 		<div class="alert alert-warning alert-dismissible fade show" role="alert" style="text-align:left;">
