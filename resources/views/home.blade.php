@@ -30,7 +30,7 @@
           <div class="card-body text-success">
 
             <p class="card-text">
-            	  <img src="{{ asset('storage/' . $produk->gambar)}}" style="height:150px; width:150px; margin:0px; padding:0px; float:right;">
+            	  <img src="{{ url('storage/' . $produk->gambar)}}" style="height:150px; width:150px; margin:0px; padding:0px; float:right;">
                   <b> Nama  : </b> <br> {{ $produk->nama_produk; }} <br>
                   <b> Harga  : </b> <br> {{ $produk->harga_produk }} <br>
                   <b> Status : </b> <br> {{ $produk->status_produk }} <br>           
@@ -67,7 +67,7 @@
 
               <div class="modal-body">
 
-            	  <img src="{{ asset('storage/' . $produk->gambar)}}" style="height:150px; width:150px; margin:0px; padding:0px; float:right;"><br>
+            	  <img src="{{ url('storage/' . $produk->gambar)}}" style="height:150px; width:150px; margin:0px; padding:0px; float:right;"><br>
                   <b> Nama  : </b> <br> {{ $produk->nama_produk; }} <br>
                   <b> Harga  : </b> <br> {{ $produk->harga_produk }} <br>
                   <b> Kategori : </b> <br> {{ $produk->kategori_produk }} <br>
